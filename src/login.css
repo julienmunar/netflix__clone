@@ -1,0 +1,120 @@
+.login{
+    position: relative;
+    background-image: url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png") ;
+    height: 100vh;
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.login__linearGradient{
+position: absolute;
+top:0;
+
+width: 100%;
+z-index:-1;
+height: 100vh;
+background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%)
+}
+.login__header{
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.header_logo{
+    object-fit: contain;
+    height: 80px;
+ 
+}
+.header__rightButtons{
+    display: flex;
+    gap:30px;
+ 
+}
+
+.buttonLanguage{
+    background-color: black;
+    color:whitesmoke;
+    border-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+ 
+}
+.buttonLanguage > svg{
+    font-size: 20px !important;
+    margin-right: 10px;
+ 
+}
+
+.buttonLogin{
+    background-color: #D81F26;
+    color:whitesmoke;
+    border:none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+ 
+}
+
+.login__hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+ 
+
+}
+.hero__content{
+    text-align: center;
+}
+.hero__title{
+
+    margin-bottom: 30px;
+   line-height: 1.1;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.hero__slogan{
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.hero__signup{
+text-align: center;
+
+.signup__enroll{
+    color: whitesmoke;
+}
+}
+.signup__content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+ 
+}
+.signup__content > input {
+    width: 70%;
+    outline: none;
+ 
+}
+.signup__getStarted{
+    background-color: #D81F26;
+    padding: 16px 20px;
+    cursor: pointer;
+    border:none;
+    font-size: 1rem;
+    color: white;
+ 
+}

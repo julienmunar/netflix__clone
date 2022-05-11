@@ -1,0 +1,53 @@
+.signUpScreen{
+    max-width: 300px;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 70px;
+  
+}
+.signUpScreen > form{
+    display: flex;
+    flex-direction: column;
+  
+}
+.signUpScreen >form> h1 {
+    margin-bottom: 25px;
+}
+
+.signUpScreen > form >input {
+outline:none ;
+height: 40px;
+margin-bottom: 14px;
+border-radius: 5px;
+border:none;
+
+  
+}
+
+.signUpScreen > form >button {
+padding:16px 20px;
+font-size: 1rem;
+background-color: #e50914;
+color:#fff;
+border-radius:5px;
+border:none;
+font-weight: 600;
+cursor: pointer;
+margin-top: 20px
+      
+    }
+
+    .signUpScreen > form > h4 {
+        margin-top: 30px;
+    }
+
+    .signUp__gray{
+        color:grey;
+        font-weight: 600;
+    }
+    .signUp__link:hover{
+text-decoration: underline;
+cursor: pointer;
+    }
